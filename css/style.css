@@ -985,6 +985,7 @@ ul.portfolio-image li .desc{
   margin-bottom: 65px;
 }
 #contact input,
+#contact a,
 #contact textarea {
   font-size: 13px;
   padding: 10px 10px 10px 5px;
@@ -997,6 +998,7 @@ ul.portfolio-image li .desc{
   font-size: 13px;
 }
 #contact input:focus,
+#contact a,
 #contact textarea:focus {
   outline: none;
   border-bottom: none;
@@ -1065,7 +1067,7 @@ ul.portfolio-image li .desc{
   -moz-animation: inputHighlighter 0.3s ease;
   animation: inputHighlighter 0.3s ease;
 }
-#contact input[type=submit] {
+#contact input[type=submit], a {
   border: 1px solid #2b2b2b !important;
   color: #2b2b2b;
   padding: 10px;
@@ -1077,6 +1079,10 @@ ul.portfolio-image li .desc{
   -webkit-transition: 0.2s ease all;
 }
 #contact input[type=submit]:hover {
+  background: #2b2b2b;
+  color: #ffffff;
+}
+#contact a:hover {
   background: #2b2b2b;
   color: #ffffff;
 }
