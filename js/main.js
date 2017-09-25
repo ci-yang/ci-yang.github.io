@@ -90,7 +90,7 @@
 
     //typed js
     $(".typed").typed({
-        strings: ["想吃辣嗎？", "我們是快樂辣椒店", "我們擁有最辣的辣椒"],
+        strings: ["想吃辣嗎？", "虹伶廚藝", "我們擁有最辣的辣椒"],
         typeSpeed: 100,
         backDelay: 900,
         // loop

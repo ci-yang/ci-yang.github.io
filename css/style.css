@@ -505,7 +505,7 @@ p {
 
 /*----------------------------------------- 6) Hero --------------------------------------------------*/
 #home {
-  background: url('../images/happy.png');
+  background: url('../images/home.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -631,7 +631,6 @@ ul.portfolio-image li img {
   height: 100%;
   left: 0;
   top: 0;
-  -webkit-filter: grayscale(100%);
   transition: filter, transform, 0.5s;
 }
 ul.portfolio-image li .decription-wrap {
@@ -912,7 +911,7 @@ ul.portfolio-image li .desc{
   width: 100%;
 }
 .bg-about {
-  background: url('../images/manager.jpg');
+  background: url('../images/intro.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
